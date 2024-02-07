@@ -1,13 +1,13 @@
 <?php
-//  Boucle pour les medicaments //
-foreach ($medicaments as $value) { ?>
+
+foreach ($medicamentspays as $value) { ?>
     <div class="col mb-5">
         <div class="card h-100">
-            <img class="card-img-top" src="<?=$value['img']?>" alt="..." />
+            <img class="card-img-top" src="<?=$value['picture']?>" alt="..." />
             <div class="card-body p-4">
                 <div class="text-center">
-                    <h5 class="fw-bolder"><?=$value['nom']?></h5>
-                    <span class=" text-decoration"><?=$value['prix']?></span>
+                    <h5 class="fw-bolder"><?=$value['names']?></h5>
+                    <span class=" text-decoration"><?=$value['price']?></span>
                 </div>
             </div>
             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">

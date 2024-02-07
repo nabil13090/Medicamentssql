@@ -1,4 +1,5 @@
-<?php require_once __DIR__ ."/utilities/header.php"; 
+<?php 
+require_once __DIR__ ."/utilities/header.php"; 
 $docteur = findallMedcin($db);?>
 <?php include 'utilities/presentation.php'; ?>
 <div class="d-xs-block d-md-flex">

@@ -2,8 +2,7 @@
 require_once dirname(__DIR__) ."/config/config.php";
 require_once dirname(__DIR__) ."/fonction/database.fn.php"; 
 require_once dirname(__DIR__ )."/utilities/utilities_data.php";
-$db = getPDOlink($config);
-?>
+$db = getPDOlink($config);?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -17,6 +16,6 @@ $db = getPDOlink($config);
 </head>
 <body>
     <header>
-    <?php include './utilities/menu.php';?>
+        <?php include './utilities/menu.php';?>
     </header>
     <main>

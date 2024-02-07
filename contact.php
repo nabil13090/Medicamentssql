@@ -48,7 +48,7 @@
                 class="btn btn-lg button-hover-gold border-1 rounded-0 text-uppercase fw-bolder px-5 bg-info " name="sub"
                 type="submit">Envoyer</button>
         </div>
-    </form>
+        </form>
     </div>
 </section>
 <?php include './utilities/footer.php';?>

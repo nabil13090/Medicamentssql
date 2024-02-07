@@ -45,9 +45,9 @@
             </ul>
           </div>
         </div>
-        <a  href="shop.php">
+        <a class="text-decoration-none" href="shop.php">
         <button class="btn btn-outline-dark d-none d-xl-block" type="submit">
-            <i class="bi-cart-fill me-1 text-decoration-underline"></i>
+            <i class="bi-cart-fill me-1 "></i>
             PANIER
             <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
         </button>

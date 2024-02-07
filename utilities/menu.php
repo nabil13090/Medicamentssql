@@ -20,13 +20,13 @@
           <div class="offcanvas-body justify-content-around">
             <ul class="navbar-nav d-flex align-items-center ">
               <li class="nav-item">
-                <a class="nav-link px-4 text-nowrap text-dark" href="index.php">ACCUEIL</a>
+                <a class="nav-link px-4 text-nowrap text-info display-2 " href="index.php">ACCUEIL</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 text-nowrap text-dark" href="produits.php">PRODUITS</a>
+                <a class="nav-link px-4 text-nowrap text-info display-2" href="produits.php">PRODUITS</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link px-4 text-nowrap text-dark" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link px-4 text-nowrap text-info display-2" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   CATÉGORIES
                 </a>
                 <ul class="dropdown-menu dropdown-black-bg rounded-0 mt-0">
@@ -35,7 +35,7 @@
                   <li><a class="dropdown-item bg-transparent" href="#">Las vegas</a></li>
                 </ul>
               </li>
-              <li class="nav-item"><a class="nav-link px-4 text-nowrap text-dark" href="contact.php">Contact</a></li>
+              <li class="nav-item"><a class="nav-link px-4 text-nowrap text-info display-2" href="contact.php">Contact</a></li>
               <button class="btn btn-outline-dark d-xl-none d-block" type="submit">
                   <i class="bi-cart-fill me-1"></i>
                   PANIER

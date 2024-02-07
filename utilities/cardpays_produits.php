@@ -1,5 +1,5 @@
 <?php
-
+//  Boucle pour les medicaments par pays//
 foreach ($medicamentspays as $value) { ?>
     <div class="col mb-5">
         <div class="card h-100">

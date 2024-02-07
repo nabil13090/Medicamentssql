@@ -30,10 +30,9 @@
                   CATÉGORIES
                 </a>
                 <ul class="dropdown-menu dropdown-black-bg rounded-0 mt-0">
-                  <li><a class="dropdown-item bg-transparent " href="#">LSD</a></li>
-                  <li><a class="dropdown-item bg-transparent" href="#">METH</a></li>
-                  <li><a class="dropdown-item bg-transparent" href="#">CODEINE</a></li>
-                  <li><a class="dropdown-item bg-transparent" href="#">MESCALINE</a></li>
+                  <li><a class="dropdown-item bg-transparent " href="#">Dubai</a></li>
+                  <li><a class="dropdown-item bg-transparent" href="#">Pukhet</a></li>
+                  <li><a class="dropdown-item bg-transparent" href="#">Las vegas</a></li>
                 </ul>
               </li>
               <li class="nav-item"><a class="nav-link px-4 text-nowrap text-dark" href="contact.php">Contact</a></li>

@@ -22,7 +22,7 @@ function findallMedicaments($db){
     return $medicaments;
 }
 
-
+// La fonction pour afficher les informations des Medicaments de divers pays //
 function findAllpays($db, $currentid){
 
     $sql = "SELECT medicaments.nom  AS names, medicaments.prix AS price, medicaments.img AS picture FROM pays

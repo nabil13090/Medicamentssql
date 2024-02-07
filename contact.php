@@ -1,5 +1,6 @@
 <?php include 'utilities/header.php'; ?>
 <h2 class="d-flex justify-content-center mt-2 my-5 ">Formulaire de contact</h2>
+<!-- Le formulaire  de contact -->
 <section class="py-5 my-5">
     <div class="container g-0">
         <form class="row text-uppercase">

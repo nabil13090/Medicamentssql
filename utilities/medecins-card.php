@@ -1,6 +1,4 @@
 <?php 
-
-
 //  Boucle pour les medicaments //
 foreach ( $docteur as $value) { ?>
 <div class="col-md-4 mb-3">

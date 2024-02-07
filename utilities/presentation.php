@@ -1,4 +1,5 @@
 <?php 
+// La  presentation //
 echo '
 <section class="container mt-3 mb-5 px-4 px-sm-0">
     <h3 class="text-center mb-5 text-uppercase">DR GONZO,<br> Médecine alternative, Bio, sans Produit chimique</h3>

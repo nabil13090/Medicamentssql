@@ -1,7 +1,3 @@
-
-
-
-
 <?php require_once __DIR__ .'/utilities/header.php';
 $currentid = $_GET['id'];
 $medicamentspays = findAllpays($db, $currentid);?>

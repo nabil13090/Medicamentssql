@@ -1,4 +1,5 @@
 <?php include 'utilities/header.php'; ?>
+<!-- Le titre -->
 <h2 class="d-flex justify-content-center my-5">SHOP</h2>
 <section class="py-5 ">
     <div class="container g-0">

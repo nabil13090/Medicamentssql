@@ -1,83 +1,81 @@
 <?php include 'utilities/header.php'; ?>
 <!-- Le titre -->
-<h2 class="d-flex justify-content-center my-5">SHOP</h2>
-<section class="py-5 ">
-    <div class="container g-0">
-        <form class="row text-uppercase">
-     <div class="cart-section mt-150 mb-150">
-            <div class="container">
-                <div class="row my-3 ">
-                    <div class="col-8  ">
-                        <div class="cart-table-wrap">
-                            <table class="cart-table my-4 ">
-                                <thead class="cart-table-head">
-                                    <tr class="table-head-row">
-                                        <th class="product-remove"></th>
-                                        <th class="product-image"></th>
-                                        <th class="product-name">nom</th>
-                                        <th class="product-price">Prix</th>
-                                        <th class="product-quantity">Quantity</th>
-                                        <th class="product-total">Total</th>
-                                    </tr>
-                                </thead>
-                                <tbod>
-                                    <tr class="table-body-row ">
-                                        <td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-                                        <td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
-                                        <td class="product-name"></td>
-                                        <td class="product-price"></td>
-                                        <td class="product-quantity"><input type="number" placeholder="0"></td>
-                                        <td class="product-total"></td>
-                                    </tr>
-                                    <tr class="table-body-row">
-                                        <td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-                                        <td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
-                                        <td class="product-name"></td>
-                                        <td class="product-price"></td>
-                                        <td class="product-quantity"><input type="number" placeholder="0"></td>
-                                        <td class="product-total"></td>
-                                    </tr>
-                                    <tr class="table-body-row">
-                                        <td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-                                        <td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
-                                        <td class="product-name"></td>
-                                        <td class="product-price"></td>
-                                        <td class="product-quantity"><input type="number" placeholder="0"></td>
-                                        <td class="product-total"></td>
-                                    </tr>
-                                </tbod>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="total-section">
-                            <table class="total-table">
-                                <thead class="total-table-head">
-                                    <tr class="table-total-row">
-                                        <th>Total</th>
-                                        <th>Prix</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="total-data">
-                                        <td><strong>sous-total: </strong></td>
-                                        <td>500€</td>
-                                    </tr>
-                                    <tr class="total-data">
-                                        <td><strong>TVA: </strong></td>
-                                        <td>45€</td>
-                                    </tr>
-                                    <tr class="total-data">
-                                        <td><strong>Total: </strong></td>
-                                        <td>545€</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                         <div class="coupon-form-wrap">
-                                <form action="index.html">
-                                    <p><input type="submit" value="Valider"></p>
-                                </form>
-                            </div>
-                     </div>
+<h2 class="d-flex justify-content-center mt-2 mb-1 display-3">SHOP</h2>
+<div class="d-flex justify-content-center ">
+<div class="card w-50 h-75  mb-3  ">
+	<div class="row">
+		<div class="col-xs-8">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<div class="row">
+							<div class="col-xs-6 d-flex justify-content-end p-5">
+								<button type="button" class="btn btn-primary btn-sm btn-block">
+									<span class="glyphicon glyphicon-share-alt"></span> Continuez vos achats
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-body p-3 ">
+					<div class="row">
+						<div class="col-xs-2"><img class="img-responsive border-black border" height="60px" width="70px" src="assets\images\medicaments\yeux.jpg">
+						</div>
+						<div class="col-xs-4">
+							<h4 class="product-name"><strong>Medicament</strong></h4><h4><small>Prescription</small></h4>
+						</div>
+						<div class="col-xs-6">
+							<div class="col-xs-6 text-right">
+								<h6><strong>25.00 <span class="text-muted">€</span></strong></h6>
+							</div>
+							<div class="col-xs-4">
+								<input type="text" class="form-control input-sm" value="1">
+							</div>
+							<div class="col-xs-2">
+								<button type="button" class="btn btn-link btn-xs">
+									<span class="glyphicon glyphicon-trash"> </span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-xs-2"><img class="img-responsive border-black border" height="60px" width="70px"  src="assets\images\medicaments\pukhetdecor.jpg">
+						</div>
+						<div class="col-xs-4">
+							<h4 class="product-name"><strong>Medicament</strong></h4><h4><small>Prescription</small></h4>
+						</div>
+						<div class="col-xs-6">
+							<div class="col-xs-6 text-right">
+								<h6><strong>25.00 <span class="text-muted">€</span></strong></h6>
+							</div>
+							<div class="col-xs-4">
+								<input type="text" class="form-control input-sm" value="1">
+							</div>
+							<div class="col-xs-2">
+								<button type="button" class="btn btn-link btn-xs">
+									<span class="glyphicon glyphicon-trash"> </span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-footer">
+					<div class="row text-center">
+						<div class="col-xs-9">
+							<h4 class="text-right">Total : <strong>50.00 €</strong></h4>
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="btn btn-success btn-block mb-3 ">
+								Achat Immediat
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
 <?php include './utilities/footer.php';?>

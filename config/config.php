@@ -11,3 +11,5 @@ $config = array(
 
 
   
+
+  define("BASE_URL" , "/");

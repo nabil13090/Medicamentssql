@@ -1,7 +1,7 @@
 <?php 
 // La  presentation //
 echo '
-<section class="container mt-3 mb-5 px-4 px-sm-0">
+<section class="container mt-3 mb-5 px-4 px-sm-0 py-4 ">
     <h3 class="text-center mb-5 text-uppercase">DR GONZO,<br> Médecine alternative, Bio, sans Produit chimique</h3>
     <p>
     Bienvenue à notre clinique dédiée à la santé mentale, un espace bienveillant où la guérison et le bien-être mental sont au cœur de notre engagement.
@@ -19,7 +19,6 @@ echo '
      transformation positive en nous contactant dès aujourdhui. Votre bien-être mental est notre priorité.<br>
         <strong>Alors bienvenue chez Doctor Gonzo, la médecine alternative à tous vos maux</strong>
     </p>
-    <h3 class="text-center mt-5 text-uppercase">LES CHIMISTES CHEZ DR GONZO</h3>
 </section>
 ';
 ?>

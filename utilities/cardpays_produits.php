@@ -7,7 +7,7 @@ foreach ($medicamentspays as $value) { ?>
             <div class="card-body p-4">
                 <div class="text-center">
                     <h5 class="fw-bolder"><?=$value['names']?></h5>
-                    <span class=" text-decoration"><?=$value['price']?></span>
+                    <span class=" text-decoration"><?=$value['price']?><i class="bi bi-currency-euro"></i></span>
                 </div>
             </div>
             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
